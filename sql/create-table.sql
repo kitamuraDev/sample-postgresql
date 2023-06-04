@@ -3,6 +3,7 @@ CREATE TABLE characters(
     name VARCHAR(255),
     birthdate VARCHAR(20),
     voice_actor VARCHAR(50),
+    comment TEXT,
     created_at DATE,
     updated_at DATE DEFAULT CURRENT_DATE
 );
